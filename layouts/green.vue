@@ -9,6 +9,7 @@
     <footer>
 			<h1>Green layout footer</h1>
 		</footer>
+		<notifications group="foo" />
   </div>
 </template>
 
