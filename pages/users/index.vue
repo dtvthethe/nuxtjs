@@ -6,7 +6,6 @@
 
 <script>
 export default {
-	layout: 'red'
 }
 </script>
 
