@@ -25,7 +25,8 @@ export default {
     {
       src: '~/plugins/my-notification.js', // check bằng cách xem có trong `this.$notify` chưa: https://www.npmjs.com/package/vue-notification
       mode: 'client'
-    }
+    },
+    '~/plugins/my-custom.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

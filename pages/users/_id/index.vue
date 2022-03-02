@@ -7,6 +7,7 @@
 <script>
 export default {
 	mounted() {
+		this.$hello('custom plugin: hihi'); // dung ntn
     // test hệ thống đã nhận `$notify` chưa:
     // console.log(this.$notify);
     setTimeout(() => {
