@@ -22,6 +22,11 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {
+      src: '~/plugins/my-notification.js', // check bằng cách xem có trong `this.$notify` chưa: https://www.npmjs.com/package/vue-notification
+      mode: 'client'
+    },
+    '~/plugins/my-custom.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

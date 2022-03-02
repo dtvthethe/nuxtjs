@@ -9,6 +9,7 @@
     <footer class="mobile-footer">
 			<h1>Mobile layout footer</h1>
 		</footer>
+		<notifications group="foo" />
   </div>
 </template>
 
