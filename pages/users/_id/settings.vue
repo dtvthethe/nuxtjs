@@ -6,7 +6,10 @@
 
 <script>
 export default {
-	layout: 'red'
+	layout(context) {
+		console.log(context.isMobile);
+    return context.isMobile ? 'mobile' : 'red';
+	}
 }
 </script>
 
