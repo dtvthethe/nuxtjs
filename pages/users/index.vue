@@ -6,9 +6,6 @@
 
 <script>
 export default {
-	layout(context) {
-    return context.isMobile ? 'mobile' : 'red';
-	}
 }
 </script>
 

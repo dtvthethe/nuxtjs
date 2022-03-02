@@ -21,7 +21,8 @@
 export default {
 	layout(context) {
     return context.isMobile ? 'mobile' : 'red';
-	}
+	},
+	middleware: 'logined'
 }
 </script>
 

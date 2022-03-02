@@ -1,4 +1,6 @@
 export default function (context) {
+	console.log('Middleware check mobile.');
+
 	context.isMobile = false;
 	let userAgent = '';
 
